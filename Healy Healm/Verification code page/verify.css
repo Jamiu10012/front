@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-weight: bold;
+}
+.verify-text p  {
+    margin: 100px 0 20px 0;
+    text-align: center;
+}
+img {
+   margin-left: 38rem;
+   width: 150px;
+}
+.btn-continue {
+    text-align: center;
+}
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(178, 194, 190);
+    margin-top: 30px;
+    width: 10%;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.box input {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background: rgb(178, 194, 190);
+    border: none;
+    outline: none;
+    text-align: center;
+}

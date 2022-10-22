@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-weight: bold;
+}
+
+.patient .header {
+    display: flex;
+    text-align: center;
+}
+.header .profile {
+    background: rgb(41, 179, 144);
+    width: 50%;
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 0px 50px 50px 0px;
+}
+.header .qualification {
+    padding-top: 20px;
+    margin-left: 20rem;
+}
+.patient-text p {
+    text-align: center;
+    margin: 2rem;
+}
+
+form {
+    display: flex;
+    padding: 0 100px;
+    width: 100%;
+    
+}
+.patient-container1 {
+    width: 50%;
+    margin-right: 100px;
+
+}
+.patient-container2 {
+    width: 50%;
+
+}
+.patient-info {
+    margin-top: 30px;
+}
+.patient-info input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 100%;
+    outline: none;
+}
+.social {
+    text-align: center;
+    margin: 10px;
+   
+}
+.btn {
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    background: rgb(41, 179, 144);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-next {
+    margin: 10px 20px 0 0;
+    float: right;
+    background: rgb(41, 179, 144);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 5%;
+    font-weight: bold;
+}
